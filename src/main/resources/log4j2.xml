@@ -2,14 +2,17 @@
 <Configuration>
     <Appenders>
         <Console name="Console">
+            <File name="File" fileName="target/logs/logsHistory.log">
             <PatternLayout>
                 <Pattern>%d %p %c{2} [%t] %l %m%n</Pattern>
             </PatternLayout>
+            </File>
         </Console>
     </Appenders>
     <Loggers>
         <Root level="trace">
             <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
         </Root>
     </Loggers>
 </Configuration>
