@@ -1,6 +1,5 @@
 package api_module.steps;
 
-import api_module.ResponseBodyParser;
 import api_module.Specifications;
 import common_module.constants.PropertyPath;
 import io.restassured.response.Response;
@@ -9,11 +8,7 @@ import java.util.List;
 
 import static api_module.ResponseBodyParser.getBodyValuesWithJsonPathMultiple;
 import static api_module.ResponseBodyParser.getBodyValuesWithJsonPathSingle;
-import static common_module.logs.LoggerHelper.info;
 import static common_module.property.PropertyHelper.getProperty;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CountriesCodeSteps {
 
