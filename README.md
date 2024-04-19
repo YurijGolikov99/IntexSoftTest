@@ -4,7 +4,7 @@
 
 
 ## Установка
-1. Клонируйте репозиторий: ``
+1. Клонируйте репозиторий: `https://github.com/YurijGolikov99/IndexSoftTest.git`
 2. Запустите IntelliJ IDEA.
 3. В верхней панели меню Выберите "Get from VCS".
 4. Выберите Version control: "Git"
