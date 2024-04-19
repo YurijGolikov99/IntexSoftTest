@@ -19,7 +19,7 @@ public class CountriesCodeTests extends BaseTest {
     @DisplayName("Наличие верного статуса ответа")
     @ParameterizedTest
     @CsvSource(value = {"codes:RUS", "codes:BLR", "codes:CHN"}, delimiter = ':')
-    public void testResponseStatusAndDataPresence(String parameterName, String countryISOCode) {
+    public void testResponseStatus(String parameterName, String countryISOCode) {
         Response responseForOneCountry = sendGetRequest(parameterName, countryISOCode);
         Response responseForMultipleCountries = countriesCodeSteps.sendGetRequestForMultipleCountries(
                 countriesCodeSteps.getBordersOfCountry(responseForOneCountry));
