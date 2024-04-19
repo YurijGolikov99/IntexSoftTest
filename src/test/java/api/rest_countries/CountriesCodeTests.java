@@ -2,7 +2,6 @@ package api.rest_countries;
 
 import api.BaseTest;
 import api_module.constants.StatusCode;
-import common_module.constants.PropertyPath;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;

@@ -20,11 +20,6 @@ public class ResponseBodyParser {
         return getResponseBody(response).asString();
     }
 
-    public static String getBodyValueWithJsonPath(Response response, String jsonPath) {
-        info("Getting single value with jsonPath %s", jsonPath);
-        return JsonPath.read(getResponseBodyAsString(response), jsonPath);
-    }
-
     public static List<String> getBodyValuesWithJsonPathSingle(Response response, String jsonPath) {
         info("Getting collection of values with jsonPath %s", jsonPath);
         return JsonPath.read(getResponseBodyAsString(response), jsonPath);

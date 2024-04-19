@@ -41,7 +41,7 @@ public class CountriesCodeSteps {
     public static Response sendGetRequestForMultipleCountries(List<String> borders) {
         return httpGetRequestWithQueryParameters(
                 getProperty(PropertyPath.BASE_URL.getPath()),
-                getProperty(PropertyPath.CODES_PARAMTER_NAME.getPath()),
+                getProperty(PropertyPath.CODES_PARAMETER_NAME.getPath()),
                 borders
         );
     }
