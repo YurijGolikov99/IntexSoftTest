@@ -1,4 +1,4 @@
-# Тестовое задание в [IndexSoft][IndexSoft.by]
+# Тестовое задание в [IntexSoft][IntexSoft.by]
 Этот проект содержит автоматизированные тесты для проверки сервиса, предоставляющего информацию о границах между странами с использованием языка Java и фреймворка RestAssured.
 
 ## Содержание
@@ -46,4 +46,4 @@
 #### Примечание
 С более подробной информацией можно ознакомиться по ссылке  https://github.com/apilayer/restcountries
 
-[IndexSoft.by]:https://www.intexsoft.by
+[IntexSoft.by]:https://www.intexsoft.by
